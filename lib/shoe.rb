@@ -7,7 +7,7 @@ class Shoe
     @brand = brand
     brand.each do |shoe_brand|
     BRANDS << shoe_brand.uniq
-  end
+    end
   end
 
   def cobble

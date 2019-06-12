@@ -5,9 +5,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    brand.each do |shoe_brand|
-    BRANDS << shoe_brand.uniq
-    end
+    BRANDS << brand
   end
 
   def cobble
